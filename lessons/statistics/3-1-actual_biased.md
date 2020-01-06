@@ -10,7 +10,7 @@ thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='# of Kids in HH', ylabel='PMF')
 ```
 ![Image of actual pmf]
-(https://github.com/chrisjchung/ThinkStats2/blob/master/code/3-1_actual.png)
+(https://github.com/chrisjchung/dsp/blob/master/lessons/statistics/3-1_actual.png)
 
 ```
 biased = BiasPmf(pmf, label = 'biased')
@@ -20,13 +20,14 @@ thinkplot.Pmfs([pmf, biased])
 thinkplot.Config(xlabel='# of Kids in HH', ylabel='PMF')
 ```
 ![Image of actualbiased pmf]
-(https://github.com/chrisjchung/ThinkStats2/blob/master/code/3-1_actualbiased.png)
+(https://github.com/chrisjchung/dsp/blob/master/lessons/statistics/3-1_actualbiased.png)
 
 ```
 print('Actual', pmf.Mean())
 print('Biased', pmf.Mean())
 ```
 Actual 1.024205155043831
+
 Biased 1.024205155043831
 
 
