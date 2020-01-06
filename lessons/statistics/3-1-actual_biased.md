@@ -9,7 +9,7 @@ pmf = thinkstats2.Pmf(resp.numkdhh, label = 'actual')
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='# of Kids in HH', ylabel='PMF')
 ```
-![Image of actual pmf](https://github.com/chrisjchung/dsp/blob/master/lessons/statistics/3-1_actual.png)
+![Image of actual pmf](https://github.com/chrisjchung/ThinkStats2/blob/master/code/3-1_actual.png)
 
 ```
 biased = BiasPmf(pmf, label = 'biased')
@@ -18,7 +18,7 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Config(xlabel='# of Kids in HH', ylabel='PMF')
 ```
-![Image of actualbiased pmf](https://github.com/chrisjchung/dsp/blob/master/lessons/statistics/3-1_actualbiased.png)
+![Image of actualbiased pmf](https://github.com/chrisjchung/ThinkStats2/blob/master/code/3-1_actualbiased.png)
 
 ```
 print('Actual', pmf.Mean())
